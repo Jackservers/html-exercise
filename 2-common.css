@@ -1,0 +1,198 @@
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+.shortcut{
+    height: 52px;
+    background-color: #333;
+}
+.shortcut .wrapper ul{
+    float: right;
+}
+.shortcut .wrapper ul li{
+    float: left;
+    line-height: 52px;
+}
+.shortcut .wrapper ul li a{
+    padding: 0 16px;
+    color: #dcdcdc;
+    font-size: 14px;
+    border-right: 1px solid #666;
+}
+.shortcut .wrapper ul li:nth-child(7) a{
+    border: none;
+}
+.shortcut .wrapper span{
+    display: inline-block;
+    margin-right: 8px;
+    width: 11px;
+    height: 16px;
+    background-image: url(./xiaotuxian-pc-client/image/sprites.png);
+    background-position: -160px -70px;
+    vertical-align: middle;
+}
+.shortcut .wrapper li a:hover{
+    color: #27ba9b;
+}
+.header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 70px;
+}
+.logo{
+    float: left;
+    margin-right: 40px;
+    width: 207px;
+    height: 70px;
+}
+.logo h1{
+    
+    width: 207px;
+    height: 70px;
+}
+.logo h1 a{
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(./xiaotuxian-pc-client/image/logo.png);
+    background-size: contain;
+    font-size: 0;
+}
+.nav{
+    float: left;
+    margin-top: 26px;
+    height: 70px;
+}
+.nav ul li{
+    margin-right: 48px;
+    float: left;
+}
+.nav li a{
+    padding-bottom: 8px;
+}
+.nav li a:hover{
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+.header .search{
+    position: relative;
+    float: left;
+    margin-left: 34px;
+    margin-top: 24px;
+    width: 172px;
+    height: 30px;   
+    border-bottom: 2px solid #e7e7e7;
+}
+.header .search input{
+    width: 172px;
+    height: 28px;
+    padding-left: 31px;
+}
+.header .search input::placeholder{
+    font-size: 14px;
+    color: #ccc;
+}
+.header .search span{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    background-image: url(./xiaotuxian-pc-client/image/sprites.png);
+    background-position: -80px -70px;
+    cursor: pointer;
+}
+.header .car a span{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 28px; 
+    float: left;
+    width: 23px;
+    height: 23px;
+    background-image: url(./xiaotuxian-pc-client/image/sprites.png);
+    background-position: -119px -69px;
+}
+.header .car a b{
+    display: inline-block;
+    position: absolute;
+    right: -12px;
+    top: -5px;
+    padding: 0 6px;
+    height: 15px;
+    background-color: #e26237;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 8px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: normal;
+}
+.footer{
+    margin-top: 114px;
+    height: 342px;
+    background-color: #333;
+}
+.footer .wrapper{
+    width: 1393px;
+}
+.footer .wrapper .top{
+    width: 1393px;
+    height: 175px;
+    padding-top: 60px;
+    padding-left: 135px;
+    border-bottom: 3px solid #434343;
+}
+.footer .wrapper .top li{
+    margin-right: 280px;
+    float: left;
+    width: 195px;
+    height: 58px;
+    
+    color: #fff;
+    font-size: 28px;
+}
+.footer .wrapper .top li:nth-child(3){
+    margin-right: 0;
+}
+.footer .wrapper .top li span{
+    display: inline-block;
+    margin-right: 19px;
+    width: 58px;
+    height: 58px;
+    background-image: url(./xiaotuxian-pc-client/image/sprites.png);
+    background-position: 0 0;
+    vertical-align: middle;
+}
+.footer .wrapper .top li b{
+    display: inline-block;
+    margin-right: 19px;
+    width: 58px;
+    height: 58px;
+    background-image: url(./xiaotuxian-pc-client/image/sprites.png);
+    background-position: -130px 0;
+    vertical-align: middle;
+}
+.footer .wrapper .top li u{
+    display: inline-block;
+    margin-right: 19px;
+    width: 58px;
+    height: 58px;
+    background-image: url(./xiaotuxian-pc-client/image/sprites.png);
+    background-position: -66px 0;
+    vertical-align: middle;
+}
+.footer .wrapper .bottom{
+    margin-top: 41px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.footer .wrapper .bottom span a{
+    color: #999;
+}
+.footer .wrapper .bottom span a:hover{
+    color: #27ba9b;
+}
+.footer .wrapper .bottom p{
+    margin-top: 14px;
+}

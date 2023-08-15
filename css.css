@@ -1,0 +1,137 @@
+
+* {
+    background-color: rgb(241, 231, 217);
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font: normal 900 66px kaiti;
+    color: rgb(32, 244, 103);
+    background-color: rgb(150, 21, 21);
+}
+
+h2 {
+    text-align: center;
+    font-size: 55px;
+    color: rgb(93, 239, 15);
+}
+
+.q {
+
+    font-size: 44px;
+    font-family: kaiti;
+    color: orange;
+}
+
+.w {
+    float: left;
+}
+
+.e {
+    color: darkviolet;
+    font-size: 40px;
+}
+
+.ulli {
+    font-size: 40px;
+}
+
+.large {
+    font-size: 30px;
+}
+
+.r {
+    text-align: center;
+}
+
+input {
+    font-size: 40px;
+}
+
+button {
+    font-size: 40px;
+}
+
+.olli {
+    font-size: 40px;
+}
+
+.t {
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(169, 21, 46);
+    line-height: 100px;
+}
+
+.t:hover {
+    background-color: grey;
+    color: orange;
+}
+
+.y {
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.big {
+    font-size: 88px;
+    color: rgb(233, 62, 24);
+}
+
+.u {
+    font-size: 66px;
+}
+
+.biaoqianjvzhong {
+    margin: 0 auto;
+}
+
+.o {
+    height: 60px;
+    background-color: blue;
+}
+
+.p {
+    width: 1200px;
+    height: 700px;
+}
+
+.a {
+    float: left;
+    width: 300px;
+    height: 700px;
+    background-color: pink;
+}
+
+.s {
+    float: left;
+    width: 300px;
+    height: 700px;
+    background-color: red;
+}
+
+.d {
+    float: left;
+    width: 300px;
+    height: 700px;
+    background-color: black;
+}
+
+.f {
+    float: left;
+    width: 300px;
+    height: 700px;
+    background-color: yellow;
+}
+
+.g {
+    height: 760px;
+    background-color: green;
+    border: 5px dotted #000;
+}
+
+.END {
+    font-size: 88px;
+    text-align: center;
+}

@@ -1,0 +1,258 @@
+/*放index页面的*/
+.banner{
+    height: 500px;
+    background-color: #f5f5f5;
+}
+.banner .wrapper{
+    position: relative;
+    height: 500px;
+}
+.banner .wrapper .aside{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.8);
+}
+.banner .wrapper .aside li{ 
+    height: 50px;
+    line-height: 50px;
+}
+.banner .wrapper .aside li a{
+    padding-left: 36px;
+    /*padding-right: 19px;*/
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    
+}
+.banner .wrapper .aside li a span{
+    margin-left: 15px;
+    font-size: 14px;
+    vertical-align: bottom;
+}
+.banner .wrapper .aside li a:hover{
+    background-color: #27ba9b;
+}
+.banner .wrapper .aside li a::after{
+    position: absolute;
+    top: 19px;
+    right: 19px;
+    content: "";
+    width: 6px;
+    height: 11px;
+    background-image: url(../image/sprites.png);
+    background-position: -80px -110px;  
+}
+.prev,
+.next{
+    position: absolute;
+    top: 228px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.2);
+    background-image: url(../image/sprites.png);
+}
+.prev{
+    left: 260px;  
+    background-position: 14px -60px;
+}
+.next{
+    right: 10px;
+    background-position: -23px -61px;
+}
+.banner .wrapper ol{
+    position: absolute;
+    left: 680px;
+    bottom: 31px;
+    height: 10px;
+}
+.banner .wrapper ol li{
+    float: left;
+    margin-right: 24px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255,255,255,0.43);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.banner .wrapper ol .current{
+    background-color: #fff;
+}
+.goods .hd{
+    padding-top: 48px;
+    padding-bottom: 37px;
+    height: 114px;
+}
+.goods .hd h2{
+    float: left;
+    font-size: 29px;
+    font-weight: normal;
+    font-family: PingFangSC-Regular;
+}
+.goods .hd h2 span{
+    margin-left: 34px;
+    font-size: 16px;
+    color: #999;
+  
+}
+.goods .hd a{
+    float: right;
+    margin-top: 11px;
+    color: #999;
+}
+.goods .hd a::after,
+.shengxian .hd .more::after{
+    display: inline-block;
+    margin-left: 13px;
+    content: "";
+    width: 7px;
+    height: 13px;
+    background-image: url(../image/sprites.png);
+    background-position: 0 -110px;
+    vertical-align: middle;
+}
+.goods .bd li{
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    width: 304px;
+    height: 405px;
+    background-color: #f0f9f4;
+    text-align: center;
+}
+.goods .bd li:nth-child(4n){
+    margin-right: 0;
+}
+.goods .bd img{
+    width: 304px;
+}
+.goods .bd h3{
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.goods .bd p{
+    margin-top: 10px;
+    color: #9a2e1f;
+    font-size: 23px;
+}
+.goods .bd p span{
+    font-size: 17px;
+}
+.goods .bd li a b{
+    position: absolute;
+    padding-top: 4px;
+    left: 17px;
+    top: 18px;
+    width: 28px;
+    height: 51px;
+    border: 2px solid #27ba9b;
+    color: #27ba9b;
+    font-size: 18px;
+    border-radius: 4px;
+    line-height: 20px;
+    font-weight: normal;
+}
+.shengxian .hd{
+    height: 96px;
+    line-height: 96px;
+}
+.shengxian .hd h2{
+    float: left;
+    font-size: 29px;
+    font-weight: normal;
+}
+.shengxian .hd .more{
+    float: right;
+    margin-left: 58px; 
+    color: #999;
+}
+.shengxian .hd ul{
+    float: right;
+}
+.shengxian .hd ul li{
+    float: left;
+}
+.shengxian .hd ul li a{
+    padding: 2px 7px;
+    margin-left: 6px;
+    text-align: center;
+}
+.shengxian .hd ul li a:hover{
+    background-color: #27ba9b;
+    color: #f5f5f5;
+}
+.shengxian .bd .left{
+    float: left;
+    width: 240px;
+    height: 610px;
+}
+.shengxian .bd .right{
+    float: right;
+    width: 1000px;
+    height: 610px;
+}
+.shengxian .bd .right li{
+    position: relative;
+    float: left;
+    margin-left: 8px;
+    width: 242px;
+    height: 304px;
+}
+.shengxian .bd .right li:nth-child(-n+4){
+    margin-bottom: 2px;
+}
+.shengxian .bd .right li a img{
+    position: absolute;
+    left: 25px;
+    top: 0;
+    width: 200px;
+}
+.shengxian .bd .right li a h3{
+    margin-top: 190px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.shengxian .bd .right li a p{
+    padding-left: 29px;
+    color: #9a2e1f;
+    font-size: 22px;
+}
+.shengxian .bd .right li a p span{
+    font-size: 17px;
+}
+.shengxian .bd .right li:hover{
+    border: 2px solid #27ba9b;   
+}
+.shengxian .bd .right li a .xiangsi{
+    position: absolute;
+    display: none;
+    padding-left: 54px;
+    padding-right: 63px;
+    width: 238px;
+    height: 84px;
+    bottom: 0;
+    background-color: #27ba9b;
+}
+.shengxian .bd .right li a:hover .xiangsi{
+    display: block;
+}
+.shengxian .bd .right li a .xiangsi .top{
+    padding-top: 14px;
+    border-bottom: 2px solid #a9dbcc;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.shengxian .bd .right li a .xiangsi .bottom{
+    padding-top: 5px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}

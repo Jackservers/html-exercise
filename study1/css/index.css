@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+body{
+    background-color: #f3f5f7;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    height: 42px;
+    margin: 30px auto;
+}
+h1{
+    float: left;
+}
+.nav{
+    float: left;
+    margin-left: 70px;
+    height: 42px;
+    
+}
+.nav li{
+    float: left;
+    margin-right: 26px;
+}
+.nav li a{
+    display: inline-block;
+    padding: 0 9px;
+    height: 42px;
+    line-height: 42px;
+    color: #050505;
+    font-size: 18px;
+}.nav li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+.search{
+    float: left;
+    margin-left: 59px;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+.search input{
+    float: left;
+    padding-left: 20px;
+    width: 360px;
+    height: 38px;
+    border: none;
+}
+.search input::placeholder{
+    font-size: 14px;
+    color: #bfbfbf;
+}
+.search button{
+    float: left;
+    border: 0;
+    width: 50px;
+    height: 38px;
+    background-image: url(../images/微信图片_202210151440281.jpg);
+    cursor: pointer;
+}
+.user{
+    float: left;
+    margin-left: 30px;
+    padding-right: 6px;
+    
+}
+.user span{
+    /*用户名不设置宽度，由长度撑开*/
+    height: 40px;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+}
+.user img{
+    vertical-align: middle;
+}
+.banner{
+    height: 420px;
+    background-color: #1c036c;
+}
+.banner .wrapper{
+    height: 420px;
+    background: url(../images/微信图片_20221015144028.jpg);
+}
+.banner .left{
+    float: left;
+    padding: 0 20px;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0,0,0,0.3);
+    line-height: 45px;
+}
+.banner .left span{
+    float: right;
+    width: 6px;
+    height: 10px;
+}
+.banner .left a{
+    display: inline-block;
+    width: 143px;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.banner .left a:hover{
+    color: #00b4ff;
+}
+.banner .right{
+    float: right;
+    margin-top: 50px;
+    width: 228px;
+    height: 300px;
+    background-color: #fff;
+}
+.banner .right h3{
+    height: 48px;
+    line-height: 48px;
+    background-color: #9bceea;
+    color: #fff;
+    font-size: 18px;
+    font-family: MicrosoftYaHei-Bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.banner .right .content{
+    padding: 0 18px;
+}
+.banner .right dl{
+    /*注意写出的padding值比实际测量出的padding值小一点，因为文字有默认行高*/
+    padding: 12px 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+.banner .right .content dt{
+    font-weight: 700;
+    color: #4e4e4e;
+}
+.banner .right .content span{
+    font-size: 14px;
+}
+.banner .right .content dd{
+    font-size: 12px;
+    font-weight: 700;
+    color: #a5a5a5;
+}
+.banner .right .more{
+    border: 1px solid #00a4ff;
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 8px auto;
+    line-height: 40px;
+    color: #00a4ff;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/*精品推荐*/
+.goods{
+    margin-top: 8px;
+    padding-left: 34px;
+    padding-right: 26px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px 0px 
+		rgba(118, 118, 118, 0.2);
+        line-height: 60px;
+}
+.goods h2{
+    padding-right: 34px;
+    font-size: 16px;
+    float: left;
+    color: #00a4ff;
+    font-family: MicrosoftYaHei-Bold;   
+}
+.goods li{
+    float: left;
+}
+.goods li a{
+    padding-right: 34px;
+    padding-left: 35px;
+    border-left: 1px solid #bfbfbf;
+    color: #050505;
+}
+.goods .habby{
+    float: right;    
+    font-size: 14px;
+    color: #00a4ff;  
+}
+.box{
+    margin-top: 37px;
+}
+.box .title{
+    height: 40px;
+}
+.title h2{
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    font-weight: normal;
+}
+.title a{
+    float: right;
+    margin: 8px 31px;         /*45-37=8*/
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.box .content li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+
+}
+.box .content li:nth-child(5n){
+    margin-right: 0;
+}
+.box .content li h3{
+    margin: 20px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: normal;
+}
+.box .content li p{
+    margin: 0 20px;
+    font-size: 12px;
+    color: #999;
+}
+.box .content li p span{
+    color: #ff7c2d;
+}
+/*下面这行自己加的，让a的可点范围变成整个大块*/
+.box .content li a{
+    display: inline-block;
+    width: 228px;
+    height: 270px;
+}
+/*让第一列图片完美的出现在格子里，原先的width比格子大一点点*/
+.box .content li img{
+    width: 228px;
+}
+/*版权*/
+.footer{
+    margin-top: 25px;
+    padding-top: 33px;
+    height: 417px;
+    background-color: #fff;
+}
+.footer .left{
+    float: left;
+    
+    padding-left: 20px;
+}
+.footer .left p{
+    margin-top: 17px;
+   
+    font-size: 12px;
+    color: #666;
+    font-family: simsun;
+}
+.footer .left a{
+    margin-top: 15px;
+    display: inline-block;
+    border: 1px solid #00a4ff;
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: #00a4ff;
+}
+.footer .right{
+    float: right;
+    padding-right: 31px;
+}
+.footer .right dl{
+    float: left;
+}
+.footer .right dt{
+    padding-bottom: 14px;
+    color: #333;
+}
+.footer .right a{
+    color: #333;
+    font-size: 12px;
+    font-family: simsun;
+}
+.footer .right .one{
+    width: 225px;
+}
+.footer .right .two{
+    width: 216px;
+}
+/*下面是hot和new补充部分*/
+
+/*为了让项目图片更生动*/
+/*子绝父相实例*/
+
+.box .content li .hot{
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    width: 40px;
+    height: 20px;
+
+}
+
+.box .content li .new{
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    width: 40px;
+    height: 20px;
+}
+.box .content li .baokuan{
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    width: 40px;
+    height: 20px;
+}
+.box .content li .finger{
+    position: absolute;
+    top: 0;
+    right: -2px;
+    width: 35px;
+    height: 35px;
+}
+.box .content li{
+    position: relative;
+}
+/*装饰图片到此为止，都是自己找的图*/

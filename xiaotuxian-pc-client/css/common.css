@@ -1,0 +1,203 @@
+/*各个页面相同的样式表*/
+.wrapper{
+    margin: 0 auto;
+    width: 1240px;
+}
+.shortcut{
+    height: 52px;
+    background-color: #333;
+}
+.shortcut .wrapper{
+    height: 52px;
+}
+.shortcut .wrapper li{
+    float: left;
+    line-height: 52px;
+}
+.shortcut .wrapper li a{
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+.shortcut .wrapper li a:hover{
+    color: #27ba9b;
+}
+.shortcut .wrapper li:nth-child(7) a{
+    border-right: 0; 
+}
+.shortcut .wrapper li a span{
+    display: inline-block;
+    margin-right: 8px;
+    width: 11px;
+    height: 16px;
+    background-image: url(../image/sprites.png);
+    background-position: -160px -70px;
+    vertical-align: middle;
+}
+.header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 70px;
+    
+}
+.header .logo{
+    float: left;
+    margin-right: 40px;
+    width: 207px;
+    height: 70px;
+   
+}
+.header .logo h1{
+    width: 207px;
+    height: 70px; 
+}
+.header .logo h1 a{
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../image/logo.png);
+    background-size: contain;
+    font-size: 0;
+    
+}
+.header .nav{
+    float: left;
+    height: 70px;
+    
+}
+.header .nav li{
+    float: left;
+    margin-right: 48px;
+    line-height: 70px;
+    font-family: PingFangSC-Regular;
+}
+.header .nav li a{
+    padding-bottom: 7px;
+}
+
+.header .nav li a:hover{
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+.header .search{
+    float: left;
+    position: relative;
+    margin-left: 34px;
+    margin-top: 24px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+}
+.header .search input{
+    padding-left: 31px;
+    width: 172px;
+    height: 28px;
+}
+.header .search span{
+    /*display: inline-block;*/
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../image/sprites.png);
+    background-position: -79px -69px;
+    cursor: pointer;
+}
+.header .search input::placeholder{
+    font-size: 14px;
+    color: #ccc;
+}
+.header .car{
+    float: left;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 28px;
+    width: 23px;
+    height: 23px;
+    background-image: url(../image/sprites.png);
+    background-position: -119px -69px;
+    cursor: pointer;
+}
+.header .car span{
+    padding-left: 6px;
+    padding-right: 6px;
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    height: 14px;
+    border-radius: 8px;
+    background-color: #e26237;
+    line-height: 14px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    font-family: PingFangSC-Medium;
+}
+.footer{
+    margin-top: 100px;
+    height: 342px;
+    background-color: #333;
+}
+.footer .wrapper{
+    width: 1393px;
+}
+.footer .top{
+    padding-top: 60px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 3px solid #434343;
+}
+.footer .top li{
+    position: relative;
+    float: left;
+    width: 195px;
+    height: 58px;
+    
+}
+.footer .top li:nth-child(-n+2){
+    margin-right: 300px;
+}
+.footer .top li::before{
+    /* display: inline-block; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 58px;
+    height: 58px;
+    background-image: url(../image/sprites.png);
+    background-position: 0 0;
+    vertical-align: middle;
+}
+.footer .top li:nth-child(2)::before{  
+    content: "";
+    background-position: -64px 0;
+}
+.footer .top li:nth-child(3)::before{
+    content: "";
+    background-position: -130px 0;
+}
+.footer .top li span{
+    padding-left: 77px;
+    font-size: 28px;
+    color: #fff;
+    font-family: PingFangSC-Light;
+    line-height: 50px;
+}
+.footer .bottom{
+    padding-top: 41px;
+    color: #999;
+    text-align: center;
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+}
+.footer .bottom p a{
+    color: #999;
+}
+.footer .bottom p a:hover{
+    color: #27ba9b;
+}
+
+
